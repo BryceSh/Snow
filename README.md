@@ -23,4 +23,7 @@ As long as your html and css files are in the main directory, link them using th
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">q
 ```
 
+## Wiki
+[[Wiki Page|Wiki]]
+
 More coming soon...
