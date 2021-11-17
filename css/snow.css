@@ -31,11 +31,11 @@
     background-color: rgb(255, 106, 210);
 }
 
-#basic-navbar {
+.basic-navbar {
     overflow: hidden;
-}
-
-#basic-navbar a {
+  }
+  
+.basic-navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -44,35 +44,36 @@
     text-decoration: none;
     font-size: 17px;
 }
-
-#basic-navbar a:hover {
-    background-color: rgba(0,0,0,0.2);
-}
-
-#basic-navbar a.active {
-    background-color: rgba(0,0,0,0.15);
+  
+.basic-navbar a:hover {
+    background-color: rgba(0,0,0,.2);
 }
   
-#basic-navbar .icon {
+.basic-navbar a.active {
+    background-color: rgba(0,0,0,.1);
+    color: white;
+}
+  
+.basic-navbar .icon {
     display: none;
 }
 
 @media screen and (max-width: 600px) {
-    #basic-navbar a:not(:first-child) {display: none;}
-    #basic-navbar a.icon {
+    .basic-navbar a:not(.active) {display: none;}
+    .basic-navbar a.icon {
       float: right;
       display: block;
     }
   }
   
   @media screen and (max-width: 600px) {
-    #basic-navbar.responsive {position: relative;}
-    basic-navbar.responsive .icon {
+    .basic-navbar.responsive {position: relative;}
+    .basic-navbar.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
     }
-    #basic-navbar.responsive a {
+    .basic-navbar.responsive a {
       float: none;
       display: block;
       text-align: left;
