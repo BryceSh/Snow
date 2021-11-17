@@ -14,7 +14,9 @@ Place the whole css, js, and img file into your public_html directory or where y
 Step 3:
 As long as your html and css files are in the main directory, link them using this code:
 ```
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/snow.css"> <!--Link to the Snow CSS file-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">q
 ```
 
 More coming soon...
