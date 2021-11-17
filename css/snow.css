@@ -3,6 +3,30 @@
     margin: 0;
 }
 
-#grid {
-    
+.b-blue {
+    background-color: rgb(78, 175, 255);
+}
+
+.b-red {
+    background-color: rgb(236, 61, 61);
+}
+
+.b-purple {
+    background-color: rgb(161, 78, 255);
+}
+
+.b-green {
+    background-color: rgb(91, 243, 71);
+}
+
+.b-orange {
+    background-color: rgb(255, 193, 78);
+}
+
+.b-yellow {
+    background-color: rgb(255, 243, 78);
+}
+
+.b-pink {
+    background-color: rgb(255, 106, 210);
 }

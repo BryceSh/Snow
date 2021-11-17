@@ -2,12 +2,19 @@
 What is Snow? Snow is a free but simple CSS framework I am working on developing. What sets snow appart from other frameworks like 
 bootstrap and larval, is well, I made it. 
 
-## How to use Snow
-Well right now, I am still developing this framework so I don't have a tutorial on it yet. 
-Stay tuned!
+## Get Started
+It's as simple as just a drag and drop
 
-# Some side effects 
-Well IDK I haven't made this yet.
+Step 1:
+Download the Snow GitHub Repository. Do this by clicking the green Code button and saving to the desktop with GIT or downloading as a ZIP
 
-# How to find how things work?
-Well IDK I haven't made this yet.
+Step 2:
+Place the whole css, js, and img file into your public_html directory or where your main website directory is.
+
+Step 3:
+As long as your html and css files are in the main directory, link them using this code:
+```
+<link rel="stylesheet" href="css/snow.css"> <!--Link to the Snow CSS file-->
+```
+
+More coming soon...
