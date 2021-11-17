@@ -1,4 +1,7 @@
-<img src="/img/logo.png" alt="logo" width="250" height="250">
+<p align="center">
+  <img src="/img/logo.png" alt="logo" width="250" height="250">
+</p>
+
 # Snow
 What is Snow? Snow is a free but simple CSS framework I am working on developing. What sets snow appart from other frameworks like 
 bootstrap and larval, is well, I made it. 
