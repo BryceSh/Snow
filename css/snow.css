@@ -33,8 +33,10 @@
 
 .basic-navbar {
     overflow: hidden;
-  }
-  
+    width: 80%;
+    padding: 0 10%;;
+}
+
 .basic-navbar a {
     float: left;
     display: block;
@@ -43,6 +45,10 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+.navbar-right a {
+    float: right;
 }
   
 .basic-navbar a:hover {
