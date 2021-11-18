@@ -84,6 +84,9 @@
       display: block;
       text-align: center;
     }
+    .basic-navbar {
+        padding: 0;
+    }
   }
 
 .page-wrapper {
@@ -132,5 +135,6 @@
     [class*="col-"] {
         width: 100%;
         display: block;
+        margin-top: 5px;
     }
 }
