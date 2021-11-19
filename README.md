@@ -10,7 +10,7 @@ bootstrap and larval, is well, I made it.
 It's as simple as just a drag and drop
 
 Step 1:
-Download or clone the Git repositorie
+Download or clone the Git repository<br>
 `git clone https://github.com/BryceSh/Snow.git`
 
 Step 2:
