@@ -10,7 +10,8 @@ bootstrap and larval, is well, I made it.
 It's as simple as just a drag and drop
 
 Step 1:
-Download the Snow GitHub Repository. Do this by clicking the green Code button and saving to the desktop with GIT or downloading as a ZIP
+Download or clone the Git repositorie
+`git clone https://github.com/BryceSh/Snow.git`
 
 Step 2:
 Place the whole css, js, and img file into your public_html directory or where your main website directory is.
