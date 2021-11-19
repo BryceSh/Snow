@@ -20,15 +20,15 @@
 }
 
 .b-green {
-    background-color: rgb(91, 243, 71);
+    background-color: rgb(88, 224, 70);
 }
 
 .b-orange {
-    background-color: rgb(255, 193, 78);
+    background-color: rgb(248, 179, 51);
 }
 
 .b-yellow {
-    background-color: rgb(255, 243, 78);
+    background-color: rgb(255, 239, 59);
 }
 
 .b-pink {
@@ -146,21 +146,34 @@
         margin-top: 5px;
     }
 }
-a.button {
+a.btn {
     display:inline-block;
-    padding:0.3em 1.2em;
-    margin:0 0.1em 0.1em 0;
     border:0.16em solid rgba(255,255,255,0);
     box-sizing: border-box;
     text-decoration:none;
-    font-family:'Roboto',sans-serif;
     font-weight:300;
     color:#FFFFFF;
     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
     text-align:center;
     transition: all 0.2s;
 }
- a.button:hover {
+
+a.btn-small {
+    padding:0.15em 0.6em;
+    margin:3px 0.1em 0.1em 0;
+}
+
+a.btn-med {
+    padding:0.5em 1.6em;
+    margin:3px 0.1em 0.1em 0;
+}
+
+a.btn-large {
+    padding:0.8em 2.2em;
+    margin:3px 0.1em 0.1em 0;
+}
+
+ a.btn:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0 0);
  }
 
@@ -168,8 +181,12 @@ a.rounded {
     border-radius:2em;
 }
 
+a.btn.b-yellow {
+    color: black;
+}
+
 @media all and (max-width: 600px) {
-    a.button {
+    a.btn {
         display: block;
         margin: 0.2em auto;
     }
