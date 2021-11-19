@@ -9,14 +9,14 @@ bootstrap and larval, is well, I made it.
 ## Get Started
 It's as simple as just a drag and drop
 
-Step 1:
+Step 1:<br>
 Download or clone the Git repository<br>
 `git clone https://github.com/BryceSh/Snow.git`
 
-Step 2:
+Step 2:<br>
 Once you've downloaded all of the files to your website directory, just drag and drop all of the files into your websites main directory. For most people with will be `public_html` or if your website has a different directory, just place those files there.
 
-Step 3:
+Step 3:<br>
 As long as your html and css files are in the main directory, link them using this code:
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1">
