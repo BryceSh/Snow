@@ -87,7 +87,10 @@
     .basic-navbar {
         padding: 0;
     }
-  }
+    .navbar-right a {
+        float: left;
+    }
+}
 
 .page-wrapper {
     width: 80%;
@@ -100,6 +103,7 @@
         margin: 10px auto;
         display: block;
     }
+
 }
 
 .grid {
