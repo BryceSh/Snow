@@ -14,7 +14,7 @@ Download or clone the Git repository<br>
 `git clone https://github.com/BryceSh/Snow.git`
 
 Step 2:
-Place the whole css, js, and img file into your public_html directory or where your main website directory is.
+Once you've downloaded all of the files to your website directory, just drag and drop all of the files into your websites main directory. For most people with will be `public_html` or if your website has a different directory, just place those files there.
 
 Step 3:
 As long as your html and css files are in the main directory, link them using this code:
