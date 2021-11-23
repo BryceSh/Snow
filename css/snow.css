@@ -114,6 +114,11 @@
     margin-bottom: 10px;
 }
 
+.grid-center {
+    margin: 0 auto;
+    float: none;
+}
+
 .grid::after {
     content: "";
     clear: both;
@@ -191,3 +196,16 @@ a.btn.b-yellow {
         margin: 0.2em auto;
     }
 }
+.basic-form {
+    width: 90%;
+    margin: 10px auto;
+}
+input[type=text], select, input[type=password], input[type=email], input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
