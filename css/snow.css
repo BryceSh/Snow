@@ -29,6 +29,7 @@
 
 .b-yellow {
     background-color: rgb(255, 239, 59);
+    color: rgb(59, 59, 59)
 }
 
 .b-pink {
@@ -208,4 +209,80 @@ input[type=text], select, input[type=password], input[type=email], input[type=da
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    color: white;
+    transition: 0.5s ease;
+}
+
+input[type=submit]:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05) 0 0);
+}
+
+textarea {
+    width: 100%;
+    padding: 1%;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+    margin: 8px 0;
+}
+
+.snow-table-responsive {
+    overflow-x: auto;
+}
+
+.snow-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.snow-table td, .snow-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.snow-table tr:nth-child(even){background-color: #f2f2f2;}
+  
+.snow-table tr:hover {background-color: #ddd;}
+  
+.snow-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+
+.t-blue tr th{
+    background-color: rgb(78, 175, 255);
+}
+
+.t-red tr th {
+    background-color: rgb(236, 61, 61);
+}
+
+.t-purple tr th {
+    background-color: rgb(161, 78, 255);
+}
+
+.t-green tr th {
+    background-color: rgb(88, 224, 70);
+}
+
+.t-orange tr th {
+    background-color: rgb(248, 179, 51);
+}
+
+.t-yellow tr th {
+    background-color: rgb(255, 239, 59);
+    color: rgb(59, 59, 59)
+}
+
+.t-pink tr th {
+    background-color: rgb(255, 106, 210);
+}
